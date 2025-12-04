@@ -47,8 +47,7 @@
         <div class="inner">
           <h2 class="section-title">Selected Projects</h2>
           <p class="section-intro">
-            A few highlights from course work and independent research. Replace the text and
-            links with your own CAPP / MACSS projects。
+            A few highlights from course work and independent research.
           </p>
 
           <div class="features">
@@ -63,25 +62,25 @@
               <p class="meta">
                 Tech: D3.js · JavaScript · HTML/CSS · V-Dem data
               </p>
-        
+
               <div class="project-media">
-                <img src="1.png"
-                     alt="Screenshot of Democracy Trajectory Simulator">
+                <img src="1.png" alt="Screenshot of Democracy Trajectory Simulator">
               </div>
-        <ul class="actions">
-          <li>
-            <a href="https://github.com/ralphluo11/CAPP30239Interactive"
-               target="_blank"
-               class="button small">
-              GitHub
-            </a>
-          </li>
-        </ul>
-                    </section>
+
+              <ul class="actions">
+                <li>
+                  <a href="https://github.com/ralphluo11/CAPP30239Interactive"
+                     target="_blank"
+                     class="button small">
+                    GitHub
+                  </a>
+                </li>
+              </ul>
+            </section>
 
             <!-- Project 2 -->
             <section class="project">
-              <h3>Media Framing & National Identity</h3>
+              <h3>Media Framing &amp; National Identity</h3>
               <p>
                 Computational text analysis of how US media frame American, Chinese, and Russian nationalism
                 (2021–2024), combining topic modeling, clustering, and supervised NLP to study narratives over time.
@@ -89,19 +88,25 @@
               <p class="meta">
                 Tech: Python · pandas · scikit-learn · BERT · NYT API
               </p>
+
               <div class="project-media">
-                <img src="2.png"
-                     alt="Framing of News">
+                <img src="2.png" alt="Media framing dashboard">
               </div>
+
               <ul class="actions">
-                <li><a href="https://github.com/ralphluo11/macs113final-project-greatproject" target="_blank" class="button small">GitHub</a></li>
-                <!-- <li><a href="LINK_TO_PAPER_OR_SLIDES" target="_blank" class="button small secondary">Paper / Slides</a></li> -->
+                <li>
+                  <a href="https://github.com/ralphluo11/macs113final-project-greatproject"
+                     target="_blank"
+                     class="button small">
+                    GitHub
+                  </a>
+                </li>
               </ul>
             </section>
 
             <!-- Project 3 -->
             <section class="project">
-              <h3>Coursework & Dashboards</h3>
+              <h3>Coursework &amp; Dashboards</h3>
               <p>
                 A collection of CAPP / MACSS coursework, including data visualizations, policy memos,
                 and interactive dashboards for public policy datasets.
@@ -110,7 +115,13 @@
                 Tech: Python · Altair / D3.js · GitHub Pages
               </p>
               <ul class="actions">
-                <li><a href="https://github.com/YOUR_GITHUB_PROFILE?tab=repositories" target="_blank" class="button small">All repos</a></li>
+                <li>
+                  <a href="https://github.com/ralphluo11?tab=repositories"
+                     target="_blank"
+                     class="button small">
+                    All repos
+                  </a>
+                </li>
               </ul>
             </section>
 
@@ -129,7 +140,7 @@
           </p>
           <p>
             Previously, I've worked on research and industry projects spanning
-            <strong>computational social science</strong>, <strong>AI & policy</strong>, and
+            <strong>computational social science</strong>, <strong>AI &amp; policy</strong>, and
             <strong>strategy / finance</strong>. I enjoy building tools that make complex systems
             easier to understand.
           </p>
@@ -154,8 +165,9 @@
               <p><a href="https://github.com/ralphluo11" target="_blank">github.com/ralphluo11</a></p>
             </div>
             <div>
-             <h3>LinkedIn</h3>
-              <p><a href="https://www.linkedin.com/in/jiahang-luo-20020111" target="_blank">
+              <h3>LinkedIn</h3>
+              <p>
+                <a href="https://www.linkedin.com/in/jiahang-luo-20020111" target="_blank">
                   linkedin.com/in/jiahang-luo-20020111
                 </a>
               </p>
@@ -175,5 +187,10 @@
       </div>
     </footer>
 
+    <!-- Small script for year + preload -->
+    <script>
+      document.getElementById('year').textContent = new Date().getFullYear();
+      document.body.classList.remove('is-preload');
+    </script>
   </body>
 </html>
