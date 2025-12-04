@@ -1,1 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>YOUR NAME - Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      max-width: 900px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+      line-height: 1.6;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    img.avatar {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    nav a {
+      margin-right: 1rem;
+    }
+    .projects {
+      margin-top: 2rem;
+    }
+    .project-card {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      padding: 1rem 1.5rem;
+      margin-bottom: 1rem;
+    }
+    .project-card h3 {
+      margin-top: 0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>YOUR NAME</h1>
+    <p>Master's student @ UChicago | Data, Policy & Computational Social Science</p>
+    <!-- 如果有头像/照片，把图片放到仓库里，改成对应文件名 -->
+    <!-- <img class="avatar" src="me.jpg" alt="Photo of YOUR NAME"> -->
+    <p>
+      <a href="https://github.com/YOUR_GITHUB" target="_blank">GitHub</a>
+      <a href="https://www.linkedin.com/in/YOUR_LINKEDIN" target="_blank">LinkedIn</a>
+    </p>
+  </header>
 
+  <section class="projects">
+    <h2>Projects</h2>
+
+    <div class="project-card">
+      <h3>Democracy Trajectory Simulator</h3>
+      <p>
+        Interactive visualization exploring “what-if” scenarios for V-Dem’s liberal
+        democracy index under different GDP growth and inequality assumptions.
+      </p>
+      <p>
+        <strong>Tech:</strong> D3.js, JavaScript, HTML/CSS, V-Dem data
+      </p>
+      <p>
+        <a href="LINK_TO_DEMO_OR_REPO" target="_blank">View project</a>
+      </p>
+    </div>
+
+    <div class="project-card">
+      <h3>Media Framing & National Identity</h3>
+      <p>
+        Computational text analysis of how US media frame American, Chinese, and
+        Russian nationalism (2021-2024), combining topic modeling and supervised NLP.
+      </p>
+      <p>
+        <strong>Tech:</strong> Python, pandas, scikit-learn, BERT, NYT API
+      </p>
+      <p>
+        <a href="LINK_TO_REPO_OR_PDF" target="_blank">View project</a>
+      </p>
+    </div>
+
+    <!-- 再加更多 CAPP coursework / projects -->
+  </section>
+
+  <section>
+    <h2>Contact</h2>
+    <p>Email: you@uchicago.edu</p>
+  </section>
+</body>
+</html>
