@@ -275,7 +275,7 @@ video {
 
 .project-media img {
   width: 100%;
-  max-height: 260px;   /* 想更矮就改小一点，比如 200 */
+  max-height: 100px;   
   object-fit: cover;
   display: block;
 }
